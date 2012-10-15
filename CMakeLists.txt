@@ -83,10 +83,10 @@ set(Cinder-KissFft_LINK_LIBRARIES
 )
 
 add_subdirectory(src/kiss)
+
 add_library(cinder-kissfft
     src/KissFFT.cpp
     src/KissFFT.h
 )
 
-target_link_libraries(cinder-kissfft src/kiss/libkiss_fft.a)
 include_directories(src)
